@@ -8,7 +8,7 @@ def Get_Winnings(m, s):
         prize = "Invalid"
     return(prize)
     
-inp = str(input("Enter Gold Medals Won: "))
-inp2 = str(input("For how many dollars was your event sponsored?: "))
+inp = input("Enter Gold Medals Won: ")
+inp2 = input("For how many dollars was your event sponsored?: ")
 print("Your prize money is: "+str(Get_Winnings(inp,inp2)))
 
