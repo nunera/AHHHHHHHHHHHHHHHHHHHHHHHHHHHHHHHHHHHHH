@@ -8,6 +8,6 @@ def Get_Winnings(m):
         prize = "Invalid"
     return(prize)
     
-inp = str(input("Enter Gold Medals Won: "))
+inp = input("Enter Gold Medals Won: ")
 print("Your prize money is: "+str(Get_Winnings(inp)))
 
